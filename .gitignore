@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Arduino
+build/
+*.hex
+*.elf
+*.bin
+.pio/
+.vscode/.browse.c_cpp.db*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# KiCad
+*-bak
+*.bak
+_autosave-*
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.000
+*.dcm.bak
+*.lib.bak
+
+# Env / secrets
+.env
+.env.*
+!.env.example
